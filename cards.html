@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #7c3aed;
+        font-family: Arial, sans-serif;
+      }
+      .profile-card {
+        flex: 0 0 300px;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+      }
+      .card-header {
+        height: 120px;
+        background: linear-gradient(135deg, #7c3aed, #6d28d9);
+      }
+      .profile-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 4px solid white;
+        margin: -40px auto 0;
+        display: block;
+        background: #f3f4f6;
+      }
+      .card-body {
+        padding: 20px;
+        text-align: center;
+      }
+      .name {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #1f2937;
+        margin-bottom: 4px;
+      }
+      .title,
+      .role {
+        font-size: 0.875rem;
+        color: #6b7280;
+        margin-bottom: 4px;
+      }
+      .button-group {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .btn {
+        padding: 8px 16px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 0.875rem;
+        transition: all 0.2s;
+      }
+      .btn-primary {
+        background: #7c3aed;
+        color: white;
+      }
+      .btn-primary:hover {
+        background: #6d28d9;
+      }
+      .btn-secondary {
+        background: white;
+        color: #374151;
+        border: 1px solid #d1d5db;
+      }
+      .btn-secondary:hover {
+        background: #f3f4f6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="card-header"></div>
+      <img src="dp.jpeg" alt="Profile" class="profile-img" />
+      <div class="card-body">
+        <h3 class="name">James Carson</h3>
+        <p class="title">UI/UX Designer</p>
+        <p class="role">Front End Developer</p>
+        <div class="button-group">
+          <button class="btn btn-primary">Message</button>
+          <button class="btn btn-secondary">Following</button>
+        </div>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="card-header"></div>
+      <img src="dp.jpeg" alt="Profile" class="profile-img" />
+      <div class="card-body">
+        <h3 class="name">James Carson</h3>
+        <p class="title">UI/UX Designer</p>
+        <p class="role">Front End Developer</p>
+        <div class="button-group">
+          <button class="btn btn-primary">Message</button>
+          <button class="btn btn-secondary">Following</button>
+        </div>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="card-header"></div>
+      <img src="dp.jpeg" alt="Profile" class="profile-img" />
+      <div class="card-body">
+        <h3 class="name">James Carson</h3>
+        <p class="title">UI/UX Designer</p>
+        <p class="role">Front End Developer</p>
+        <div class="button-group">
+          <button class="btn btn-primary">Message</button>
+          <button class="btn btn-secondary">Following</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
